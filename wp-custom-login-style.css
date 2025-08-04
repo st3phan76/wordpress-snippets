@@ -1,0 +1,20 @@
+/**
+ * WP custom login
+ * 
+ * requires wp-custom-login.php in your functions.php
+ *
+ */
+  
+/* Add your custom styles here */
+
+/* Login */
+.login h1 a {
+	background-image: url("https://wp25.jorado.de/wp-content/uploads/2025/05/jrd-logo-4c-transparent.svg") !important;
+	background-size: 320px;
+	width: 320px;
+	height: 120px;
+}
+
+.language-switcher {
+	display: none;
+}
