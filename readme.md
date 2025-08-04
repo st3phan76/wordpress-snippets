@@ -11,5 +11,5 @@ If you have suggestions for features or how certain code works, we'd love to hea
 
 ## Useful Links
 - [Wordpress](https://wordpress.org/)
-- [Wordpress Plugin Handbook — Plugin Basics (Howto)](https://developer.wordpress.org/plugins/plugin-basics/)
+- [Wordpress Plugin Handbook — Plugin Basics](https://developer.wordpress.org/plugins/plugin-basics/) (Howto)
   
