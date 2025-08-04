@@ -1,8 +1,14 @@
 /**
- * WP custom login
- * 
- * requires wp-custom-login.php in your functions.php
+ * Snippet Name: WP Custom login
+ * Author: st3phan76
+ * Author-URL: https://github.com/st3phan76
+ * License: GPL 2 or later
+ * License-URL: https://www.gnu.org/licenses/gpl-2.0.html
  *
+ * Changes logo, logo-size and hides language-switcher.
+ *
+ * requires wp-custom-login-style.css in your child-theme folder.
+ * Use this file in your child-theme's folder.
  */
   
 /* Add your custom styles here */
