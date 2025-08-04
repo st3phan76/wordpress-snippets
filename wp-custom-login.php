@@ -1,7 +1,12 @@
-<?php
+Name<?php
 
 /**
- * Custom login
+ * Snippet Name: WP Custom login
+ * Author: st3phan76
+ * Author-URL: https://github.com/st3phan76
+ * License: GPL 2 or later
+ * License-URL: https://www.gnu.org/licenses/gpl-2.0.html
+ *
  * Changes logo, header-text and header-URL on /wp-admin.
  * requires wp-custom-login-style.css in your child-theme folder.
  * Use the action and filters and place them in your theme's functions.php file or your custom plugin file.
