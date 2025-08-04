@@ -1,20 +1,18 @@
 <?php
 
 /**
- * Snippet Name: WP Custom login
- * Author: st3phan76
- * Author-URL: https://github.com/st3phan76
+ * Name: Custom login
+ * Author: st3phan76 (https://github.com/st3phan76)
  * License: GPL 2 or later
- * License-URL: https://www.gnu.org/licenses/gpl-2.0.html
  *
  * Changes logo, header-text and header-URL on /wp-admin.
- * requires wp-custom-login-style.css in your child-theme folder.
- * Use the action and filters and place them in your theme's functions.php file or your custom plugin file.
+ * requires custom-login-style.css in your child-theme folder.
+ * Use the action and filters and place them in your child-theme's functions.php file or your custom plugin file.
  */
 
-// enable custom css from wp-custom-login-style.css in your child-theme folder.
+// enable custom css from custom-login-style.css in your child-theme folder.
 function my_custom_login_styles() {
-    wp_enqueue_style('custom-login', get_stylesheet_directory_uri() . '/wp-custom-login-style.css');
+    wp_enqueue_style('custom-login', get_stylesheet_directory_uri() . '/custom-login-style.css');
 }
 add_action('login_enqueue_scripts', 'my_custom_login_styles');
 
