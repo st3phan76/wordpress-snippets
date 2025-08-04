@@ -2,7 +2,7 @@
 Simple snippets I use for Wordpress.
 
 ## PHP Snippets
-- `WP Custom Login` Simple change logo, header-URL an header-text ([Snippet PHP](https://github.com/st3phan76/wordpress-snippets/blob/main/wp-custom-login.php), [CSS](https://github.com/st3phan76/wordpress-snippets/blob/main/wp-custom-login-style.css)) 
+- `WP Custom Login` Simple change logo, header-URL an header-text (View Snippet [PHP](https://github.com/st3phan76/wordpress-snippets/blob/main/wp-custom-login.php), [CSS](https://github.com/st3phan76/wordpress-snippets/blob/main/wp-custom-login-style.css)) 
 
 ## Bugs & Feedback
 No code is perfect. Should you spot a bug, please report it here via Github.
