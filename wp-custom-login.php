@@ -1,4 +1,4 @@
-Name<?php
+<?php
 
 /**
  * Snippet Name: WP Custom login
