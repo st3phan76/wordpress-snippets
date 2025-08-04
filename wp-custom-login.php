@@ -1,14 +1,13 @@
+<?php
+
 /**
  * Custom login
- * 
- * changes logo, header-text and header-URL on /wp-admin
- *
- * requires wp-custom-login-style.css in your theme folder
- *
- * copy this to your functions.php or use it in an own plugin
+ * Changes logo, header-text and header-URL on /wp-admin.
+ * requires wp-custom-login-style.css in your child-theme folder.
+ * Use the action and filters and place them in your theme's functions.php file or your custom plugin file.
  */
-  
-// enable custom css in wp-custom-login-style.css
+
+// enable custom css from wp-custom-login-style.css in your child-theme folder.
 function my_custom_login_styles() {
     wp_enqueue_style('custom-login', get_stylesheet_directory_uri() . '/wp-custom-login-style.css');
 }
