@@ -1,11 +1,10 @@
 <?php
 
 /**
- * Name: Disable WP OC-cache check
- * Author: st3phan76 (https://github.com/st3phan76)
- * License: GPL 2 or later
+ * Name: Disable persistent object cache check
  *
- * Disables OC-Cache check in in site helth check.
+ * Opt out for suggesting the persistent object cache.
+ * URL: https://developer.wordpress.org/reference/hooks/site_status_should_suggest_persistent_object_cache/
  */
 
 add_filter('site_status_should_suggest_persistent_object_cache', '__return_false');
