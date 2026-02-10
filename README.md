@@ -2,7 +2,7 @@
 Simple snippets I use for Wordpress.
 
 ## PHP Snippets
-- `Custom Login` ([PHP](https://github.com/st3phan76/wordpress-snippets/blob/main/wp-custom-login.php), [CSS](https://github.com/st3phan76/wordpress-snippets/blob/main/wp-custom-login-style.css)) Simple change logo, header-URL an header-text.
+- `Custom Login` ([PHP](https://github.com/st3phan76/wordpress-snippets/blob/main/wp-custom-login/wp-custom-login.php), [CSS](https://github.com/st3phan76/wordpress-snippets/blob/main/wp-custom-login/wp-custom-login-style.css)) Simple change logo, header-URL an header-text.
 - `Disable persistent object cache check` ([PHP](https://github.com/st3phan76/wordpress-snippets/blob/main/disable-persistent-object-cache-check.php)) Simple filter to disable the suggestion of persistent object cache in site health check.
 - `Shortcode get primary term` ([PHP](https://github.com/st3phan76/wordpress-snippets/blob/main)) Displays the primary term of a single post using a shortcode.
 - `Shortcode single post last modified` ([PHP](https://github.com/st3phan76/wordpress-snippets/blob/main)) Displays the last modified date using a shortcode..
