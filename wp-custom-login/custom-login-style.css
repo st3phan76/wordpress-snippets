@@ -11,12 +11,13 @@
   
 /* Login */
 .login h1 a {
-	background-image: url("/wp-content/uploads/2025/05/jrd-logo-4c-transparent.svg") !important;
-	background-size: 320px;
-	width: 320px;
-	height: 120px;
+	background-image: url("/wp-content/uploads/wp-custom-login/your-logo.svg") !important;
+	background-size: 320px; /* adjust to your needs */
+	width: 320px; /* adjust to your needs */
+	height: 120px; /* adjust to ratio of width */
 }
 
+/* hide language switch */
 .language-switcher {
 	display: none;
 }
