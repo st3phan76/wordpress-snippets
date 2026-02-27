@@ -1,17 +1,19 @@
 <?php
 
 /**
- * Name: Shortcode get primary term
- * Author: st3phan76 (https://github.com/st3phan76)
- * License: GPL 2 or later
+ * WordPress — Shortcode to Get Primary Term
  *
- * Retrieves the primary term from the post.
- * Use [primary_term] to display the primary term from the post in your template.
+ * Retrieves the primary term of a post and makes it available via shortcode.
+ * Use `[primary_term]` to display the post's primary category, or
+ * `[primary_term taxonomy="post_tag"]` to display the primary tag.
+ * This allows developers to dynamically insert the main taxonomy term into templates.
  *
- * Post primary term as shortcode
- * [primary_term]             			→ returns primary category
- * [primary_term taxonomy="post_tag"]   → returns primary tag
- */ 
+ * @package    WordPressSnippets
+ * @author     st3phan76
+ * @copyright  2026 st3phan76
+ * @license    GPL-2.0-or-later
+ * @link       https://github.com/st3phan76
+ */
 
 function sr_get_primary_term_shortcode($atts) {
     global $post; // important for loop widgets e.g. from elementor

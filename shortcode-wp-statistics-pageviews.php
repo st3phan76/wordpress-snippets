@@ -1,16 +1,19 @@
 <?php
 
 /**
- * Name: Shortcode WP Statistics pageviews
- * Author: st3phan76 (https://github.com/st3phan76)
- * License: GPL 2 or later
+ * WordPress — Shortcode for WP Statistics Pageviews
  *
- * requires: WP Statistics
- * URL: https://wordpress.org/plugins/wp-statistics/
+ * Displays the number of page views for a single post using the WP Statistics plugin.
+ * Use `[post_views]` to output the post’s view count as a number.
+ * Requires: WP Statistics plugin (https://wordpress.org/plugins/wp-statistics/).
  *
- * Use [post_views] to display the page views of the single post as number.
+ * Elementor: In single post templates, use the Meta Data widget with type > Custom > Shortcode > `[post_views]`.
  *
- * Elementor: Use meta data widget in single post template. Use type > custom > shortcode
+ * @package    WordPressSnippets
+ * @author     st3phan76
+ * @copyright  2026 st3phan76
+ * @license    GPL-2.0-or-later
+ * @link       https://github.com/st3phan76
  */
  
  function shortcode_post_views( $atts ) {

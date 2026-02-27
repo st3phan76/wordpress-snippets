@@ -1,12 +1,15 @@
 /**
- * Snippet Name: Custom login
- * Author: st3phan76 (https://github.com/st3phan76)
- * License: GPL 2 or later
+ * WordPress — CSS For Custom Login
  *
- * Changes logo, logo-size and hides language-switcher.
+ * Customizes the WordPress login screen by changing the logo, header text, and header URL.
+ * Requires the `custom-login-style.css` file in your child theme folder.
+ * Place the actions and filters in your child theme's functions.php file or in a custom plugin file.
  *
- * requires custom-login-style.css in your child-theme folder.
- * Use this file in your child-theme's folder.
+ * @package    WordPressSnippets
+ * @author     st3phan76
+ * @copyright  2026 st3phan76
+ * @license    GPL-2.0-or-later
+ * @link       https://github.com/st3phan76
  */
   
 /* Login */

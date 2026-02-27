@@ -1,16 +1,19 @@
 <?php
 
 /**
- * Name: Shortcode single post last modified
- * Author: st3phan76 (https://github.com/st3phan76)
- * License: GPL 2 or later
+ * WordPress — Shortcode for Post Last Modified Date
  *
- * Retrieves the date on which the post was last modified as shortcode.
+ * Retrieves the date on which a post was last modified and makes it available via shortcode.
+ * Use `[last_updated]` to display the last modified date of a post.
  * Reference: https://developer.wordpress.org/reference/functions/get_the_modified_date/
- * 
- * Use [last_updated] to display the date on which the post was last modified.
  *
- * Elementor: Use meta data widget in single post template. Use type > custom > shortcode > [last_updated]
+ * Elementor: In single post templates, use the Meta Data widget with type > Custom > Shortcode > `[last_updated]`.
+ *
+ * @package    WordPressSnippets
+ * @author     st3phan76
+ * @copyright  2026 st3phan76
+ * @license    GPL-2.0-or-later
+ * @link       https://github.com/st3phan76
  */
   
  function shortcode_last_updated_date( $atts ) {
